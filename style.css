@@ -28,11 +28,10 @@ textarea {
   outline: none;
   overflow: auto;
   width: 90%;
-  /* height: fit-content; /*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
   min-height: 550px;
   color: #0a3871;
   border: none;
-
+  background: transparent;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -339,5 +338,27 @@ button {
 
   .alura {
     left: 20px;
+  }
+
+  .textContainer {
+    min-height: 400px;
+  }
+  textarea {
+    min-height: 200px;
+    font-size: 28px;
+  }
+  .btnPrincipal {
+    width: 45%;
+  }
+  .btnSecundario {
+    width: 45%;
+  }
+
+  .noMsj {
+    font-size: 20px;
+  }
+
+  .sugerencia {
+    font-size: 12px;
   }
 }
