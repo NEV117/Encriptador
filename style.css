@@ -310,7 +310,7 @@ button {
   }
 
   .advWraper {
-    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .arriba {
@@ -319,7 +319,7 @@ button {
   }
 
   .contenedor .buttonsLayout .btnSecundario {
-    width: 100%;
+    width: 90%;
     max-width: 624px;
   }
 
