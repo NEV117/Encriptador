@@ -9,6 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
 function mostrarEncripcion() {
   const texto = document.getElementById("texto").value;
 
+  //validar vacios
+  if (texto.trim() === "") {
+    //muestra alerta alert
+    var elemento = document.getElementById("nullText");
+    elemento.classList.remove("alert");
+  }
+
   //validar solo minusculas y caracteres especiales
   if (validarCadena(texto) == false) {
     console.log("cagaste");
@@ -29,16 +36,9 @@ function mostrarEncripcion() {
     elemento.classList.add("yesText");
     document.getElementById("encripcion").value = "";
 
-    //muestra alerta alert
-    var elemento = document.getElementById("nullText");
-    elemento.classList.remove("alert");
+    return;
+  }
 
-    return;
-  }
-  //validar vacios
-  if (texto.trim() === "") {
-    return;
-  }
   var elemento = document.getElementById("nullText");
   elemento.classList.add("alert");
 
