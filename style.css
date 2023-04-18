@@ -347,12 +347,12 @@ button {
     min-height: 200px;
     font-size: 28px;
   }
-  .btnPrincipal {
+  /* .btnPrincipal {
     width: 45%;
   }
   .btnSecundario {
     width: 45%;
-  }
+  } */
 
   .noMsj {
     font-size: 20px;
@@ -361,4 +361,34 @@ button {
   .sugerencia {
     font-size: 12px;
   }
+  .buttonsLayout {
+    width: 90%;
+  }
+}
+
+footer {
+  padding-top: 2.5rem;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+
+footer div i {
+  font-size: 30px;
+  color: #0a3871;
+}
+footer div {
+  display: flex;
+  gap: 15px;
 }
