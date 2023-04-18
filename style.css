@@ -218,7 +218,8 @@ button {
 
 .abajo {
   position: absolute;
-  bottom: 0; /* ubicación en la parte inferior */
+  bottom: 0;
+  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -326,7 +327,6 @@ button {
   .abajo {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
     position: relative;
   }
 

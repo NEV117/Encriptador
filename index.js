@@ -43,6 +43,13 @@ function mostrarEncripcion() {
   var elemento = document.getElementById("nullText");
   elemento.classList.add("alert");
 
+  //muestra sugerencia en rojo
+  var elemento = document.getElementById("sugerencia");
+  elemento.classList.remove("aletsvg");
+  //sugestText
+  var elemento = document.getElementById("sugestText");
+  elemento.classList.remove("red");
+
   //oculta imgContainer
   var elemento = document.getElementById("imgContainer");
   elemento.classList.add("yesText");
