@@ -14,6 +14,7 @@ function mostrarEncripcion() {
     //muestra alerta alert
     var elemento = document.getElementById("nullText");
     elemento.classList.remove("alert");
+    return;
   }
 
   //validar solo minusculas y caracteres especiales
