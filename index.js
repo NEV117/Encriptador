@@ -19,8 +19,6 @@ function mostrarEncripcion() {
 
   //validar solo minusculas y caracteres especiales
   if (validarCadena(texto) == false) {
-    console.log("cagaste");
-
     //muestra sugerencia en rojo
     var elemento = document.getElementById("sugerencia");
     elemento.classList.add("aletsvg");
@@ -76,7 +74,7 @@ function encript(texto) {
 }
 
 function validarCadena(cadena) {
-  return /^[a-z]+$/.test(cadena);
+  return /^[a-z\n\s]+$/.test(cadena);
 }
 
 //---------DESENCIPCION----------------------------------------------------
